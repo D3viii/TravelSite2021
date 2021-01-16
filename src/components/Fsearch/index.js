@@ -7,6 +7,17 @@ function FlightSearch(props) {
         <label>Flights</label>
       </div>
       <div className="col-sm">
+        <div className="form-check form-switch">
+          <input
+            className="form-check-input"
+            type="checkbox"
+            id="flexSwitchCheckDefault"
+          ></input>
+          <label className="form-check-label" for="flexSwitchCheckDefault">
+            {" "}
+            Roundtrip{" "}
+          </label>
+        </div>
         <input
           type="text"
           placeholder="From"
